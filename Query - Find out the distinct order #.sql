@@ -1,0 +1,1 @@
+SELECT count(distinct name) FROM `swiggy-order-analysis.items.Items` LIMIT 1000
