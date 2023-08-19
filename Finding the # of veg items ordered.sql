@@ -1,3 +1,5 @@
+Command to find out the number of veg items ordered
+
 select is_veg, count(name) as items from `items.Items` group by is_veg
 
 Result -
