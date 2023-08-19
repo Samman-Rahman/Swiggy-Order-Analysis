@@ -1,4 +1,4 @@
-Command to find out the number of distinct orders
+Command to find out the number of distinct items orders
 
 SELECT count(distinct name) FROM `swiggy-order-analysis.items.Items` LIMIT 1000
 
